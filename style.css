@@ -14,3 +14,12 @@ img {
 .intro-heading {
   margin-top: 100px;
 }
+
+body {
+  background-color: lightblue;
+  font-family: sans-serif;
+}
+
+.header, .intro, .about, .contact {
+  text-align: center;
+}
