@@ -8,11 +8,13 @@
 
 img {
   background-repeat: no-repeat;
-  margin-left: 450px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 .intro-heading {
-  margin-top: 100px;
+  margin-top: 40px;
 }
 
 .header {
@@ -20,10 +22,25 @@ img {
 }
 
 .intro {
-  position: absolute;
-   margin: auto;
-   left: 0;
-   right: 0;
-   top: 0;
-   bottom: 0;
+  text-align: center;
+}
+
+.about {
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.contact {
+  text-align: center;
+}
+
+ol {
+  text-align: center;
+  list-style-position: inside;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
 }
