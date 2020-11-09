@@ -1,4 +1,6 @@
 .image {
   background-image: url("./images/kev.jpg");
   background-repeat: no-repeat;
+  width: 400px;
+  height: 400px;
 }
