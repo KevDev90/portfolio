@@ -1,8 +1,12 @@
-img {
-  background-repeat: no-repeat;
-  margin: 10px;
+* {
+  box-sizing: border-box;
 }
 
 .intro {
   margin-top: 10px;
+}
+
+img {
+  background-repeat: no-repeat;
+  margin: 10px;
 }
