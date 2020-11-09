@@ -20,7 +20,6 @@ body {
   font-family: sans-serif;
 }
 
-.header, .intro, .about, .contact {
-  margin-left: auto;
-  margin-right: auto;
+.header {
+  text-align: center;
 }
