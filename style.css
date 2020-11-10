@@ -2,10 +2,17 @@
   box-sizing: border-box;
 }
 
-.intro {
-  margin-top: 10px;
+/* ------ header  ------ */
+
+.header {
+  text-align: center;
+  background-color: grey;
+  margin-top: -50px;
+  margin-bottom: 50px;
+  height: 175px;
 }
 
+/* ------ image of myself  ------ */
 img {
   background-repeat: no-repeat;
   height: 300px;
@@ -13,7 +20,12 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
 
+/* ------ Body structure  ------ */
+
+.intro {
+  margin-top: 10px;
 }
 
 .intro-heading {
@@ -58,14 +70,6 @@ body {
   padding:0;
 }
 
-.header {
-  text-align: center;
-  background-color: grey;
-  margin-top: -50px;
-  margin-bottom: 50px;
-  height: 175px;
-}
-
 h1 {
   font-family: fantasy;
   font-size: 55px;
@@ -87,8 +91,23 @@ h1 {
 }
 
 footer {
+  margin-top: 100px;
   background-color: grey;
   text-align: center;
   height: 70px;
   padding-top: 10px;
+}
+
+/* ------ pseudo classes for links  ------ */
+
+a:link {
+  color: blue;
+}
+
+a:hover {
+  color: #FF00F0;
+}
+
+a:active {
+  color: #0000F0;
 }
