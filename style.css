@@ -8,31 +8,38 @@
 
 img {
   background-repeat: no-repeat;
+  height: 300px;
+  width: 300px;
   display: block;
-    margin-left: auto;
-    margin-right: auto
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .intro-heading {
   margin-top: 40px;
-}
-
-.header {
-  text-align: center;
+  font-size: 31px;
 }
 
 .intro {
   text-align: center;
+  margin-bottom: 50px;
+  font-family: monospace;
+  font-size: 18px;
 }
 
 .about {
   text-align: center;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: monospace;
+  font-size: 18px;
 }
 
 .contact {
   text-align: center;
+  font-family: monospace;
+  font-size: 18px;
 }
 
 ol {
@@ -43,4 +50,45 @@ ol {
 ul {
     text-align: center;
     list-style-position: inside;
+}
+
+body {
+  background-color: #D3D3D3;
+  margin:0;
+  padding:0;
+}
+
+.header {
+  text-align: center;
+  background-color: grey;
+  margin-top: -50px;
+  margin-bottom: 50px;
+  height: 175px;
+}
+
+h1 {
+  font-family: fantasy;
+  font-size: 55px;
+  margin-bottom: 33px;
+  padding-top: 20px;
+}
+
+.dev {
+  font-family: fantasy;
+  font-size: 25px;
+}
+
+.about-kev {
+  font-size: 26px;
+}
+
+.contact-kev {
+  font-size: 26px;
+}
+
+footer {
+  background-color: grey;
+  text-align: center;
+  height: 70px;
+  padding-top: 10px;
 }
